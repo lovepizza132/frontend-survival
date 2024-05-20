@@ -2,5 +2,5 @@
 
 ## GitBook
 
-* [week01](week01.md)
+* [Settings](settings.md)
 
