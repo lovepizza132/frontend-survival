@@ -1,6 +1,7 @@
 # Table of contents
 
-## GitBook
+- [megatera-front](README.md)
 
-* [Settings](settings.md)
+- [1주차](week01/README.md)
+ - [1. Environment](week01/environment.md)
 
