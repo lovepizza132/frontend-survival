@@ -6,6 +6,7 @@
 
 ## 목차
 - [1. Environment](week01/environment.md)
+- [2. TypeScript](week01/typescript.md)
 - TypeScript
 - React
 - Testing Library
