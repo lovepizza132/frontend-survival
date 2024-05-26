@@ -5,8 +5,7 @@
 프론트엔드라면 혼자 환경 세팅을 할 수 있어야한다.
 
 ## 목차
-
-- 개발 환경
+- [1. Environment](week01/environment.md)
 - TypeScript
 - React
 - Testing Library
