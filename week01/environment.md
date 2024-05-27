@@ -9,7 +9,7 @@
  - Node.js는 반드시 LTS 버전을 설치하자
 
  - FNM(Fast Node Manager)이 뭐야?
-    Node.js 버전 관리 도구(nvm이 느려서 만듦)
+    Node.js 버전 관리 도구(nvm이 느려서 만듦)\
     cross-platform 지원
       - nvm은 window를 지원하지 않음(nvm-windows를 사용)
       - nvm은 bash script 이기 때문에 window 미지원
