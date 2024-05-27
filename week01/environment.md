@@ -56,7 +56,7 @@ TypeScript는 Javascript의 Superset이다.\
 자바스크립트 언어에 정적인 타입을 입혀 개발과정에서 실수를 줄일 수 있다.
 
 - 타입스크립트 devDependencies에 추가하기
-    - ```npm i -D typescript```
+    - ```zsh npm i -D typescript```
     - package.json에서 devDependencies에 들어가고 개발환경에서만 사용되는 툴\
     - dependencies는 프로그램에서 사용\
     - 과거에는 npm install --save-dev
