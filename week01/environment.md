@@ -39,11 +39,11 @@
 ### 1. Node.js 세팅(npm 패키지 준비)
  
 `package.json` 생성
-```zsh
-npm init
-```
-(npm init -y 한번에 package.json 생성)\
-name은 kebab-case, Lisp-case
+    ```zsh
+    npm init
+    ```
+        (npm init -y 한번에 package.json 생성)\
+        name은 kebab-case, Lisp-case
 
 ### 2. `.gitignore` 파일 생성
  
