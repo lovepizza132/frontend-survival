@@ -258,8 +258,9 @@ parcel로 서버 실행, 배포, ESLint 체크 및 Typescript 체크, Jest 테�
     ```
 
 - package.json main 수정
-        node는 package.json의 main 사용\
-        Web Server이기에 "source": "index.html"
+
+    node는 package.json의 main 사용\
+    Web Server이기에 "source": "index.html"
 
 ### 에러
 - `npm run lint` 에러
