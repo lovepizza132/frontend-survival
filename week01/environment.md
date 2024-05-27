@@ -38,7 +38,7 @@
 
 ### 1. Node.js 세팅(npm 패키지 준비)
  
-`package.json` 생성
+`package.json` 생성\
     ```zsh
     npm init
     ```
