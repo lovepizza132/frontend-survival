@@ -15,12 +15,9 @@
     cross-platform 지원
 
         nvm은 window를 지원하지 않음(nvm-windows를 사용)
-
         nvm은 bash script 이기 때문에 window 미지원
 
-    nvm < fnm
-
-      rust로 만듦
+    nvm(bash) < fnm(rust로 만듦)
 
     volta와 같이 프로젝트 진입 시 자동으로 node version 변환 가능
 
@@ -36,6 +33,7 @@
     }
     ```
 
+----------------------------------------------------------------
 ### 개발환경 구축
 
 ### 1. Node.js 세팅(npm 패키지 준비)
@@ -56,22 +54,22 @@ node_modules를 통째로 커밋하는 것을 방지하기 위해\
 ### 3. TypeScript 설정
 
 TypeScript는 Javascript의 Superset이다.\
-자바스크립트 언어에 정적인 타입을 입혀 개발과정에서 실수를 줄일 수 있다.\
+자바스크립트 언어에 정적인 타입을 입혀 개발과정에서 실수를 줄일 수 있다.
 
 - 타입스크립트 devDependencies에 추가하기
-```zsh
+```
 npm i -D typescript
 ```
 package.json에서 devDependencies에 들어가고 개발환경에서만 사용되는 툴\
 dependencies는 프로그램에서 사용\
-과거에는 npm install --save-dev\
+과거에는 npm install --save-dev
 
 - `tsconfig.json`파일 생성
 ```zsh
 npx tsc --init
 ```
 node_modules/.bin/tsc --init 명령어와 같다.\
-npx는 node_modules에 해당하는 패키지가 설치되어 있으면 찾아서 실행, 만약 설치되어 있지 않더라도 npm 패키지들을 캐시하는 곳에 다운로드 받아서 설치하지 않아도 사용할 수 있도록 해준다.\
+npx는 node_modules에 해당하는 패키지가 설치되어 있으면 찾아서 실행, 만약 설치되어 있지 않더라도 npm 패키지들을 캐시하는 곳에 다운로드 받아서 설치하지 않아도 사용할 수 있도록 해준다.
 
 - `tsconfig.json`타입스크립트 설정파일을 수정을 통해 JSX문법 허용
 ```zsh
