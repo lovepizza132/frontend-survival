@@ -78,7 +78,7 @@ TypeScript는 Javascript의 Superset이다.\
     - import React를 하지 않아도 사용 가능
 
 ### 4. ESLint(정적 분석기) 설정
-JavaScript, TypeScript의 정적 분석도구\
+JavaScript, TypeScript의 정적 분석도구
 - 주요 기능
     - 코드스타일 검사: 들여쓰기, 따옴표, 세미클론 등 스타일 규칙 검사
     - 오류 검사 잘못된 변수 사용, 선언되지 않은 변수 등 오류 검출
@@ -258,8 +258,8 @@ parcel로 서버 실행, 배포, ESLint 체크 및 Typescript 체크, Jest 테�
     ```
 
 - package.json main 수정
-    node는 package.json의 main 사용\
-    Web Server이기에 "source": "index.html"
+        node는 package.json의 main 사용\
+        Web Server이기에 "source": "index.html"
 
 ### 에러
 - `npm run lint` 에러
