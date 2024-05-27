@@ -9,6 +9,7 @@
  - Node.js는 반드시 LTS 버전을 설치하자
 
  - FNM(Fast Node Manager)이 뭐야?
+
     Node.js 버전 관리 도구(nvm이 느려서 만듦)
 
     cross-platform 지원
@@ -22,7 +23,7 @@
       rust로 만듦
 
     volta와 같이 프로젝트 진입 시 자동으로 node version 변환 가능
-    
+
     설치와 구성이 nvm보다 쉬움
 
 - 노드버전은 package.json에서 egines 필드로 node와 pnpm 버전 명시
@@ -50,15 +51,16 @@
 
 ### 2. `.gitignore` 파일 생성
  
- node_modules를 통째로 커밋하는 것을 방지하기 위해
+node_modules를 통째로 커밋하는 것을 방지하기 위해
  
- `.gitignore` 파일 생성
+`.gitignore` 파일 생성
  
- [Node - gitignore](https://www.toptal.com/developers/gitignore/api/node)
+[Node - gitignore](https://www.toptal.com/developers/gitignore/api/node)
 
+### 3. Typescript 설정
 
+Type
 
-- Node.js
 
 ## 강의내용
 
