@@ -5,9 +5,11 @@
 프론트엔드라면 혼자 환경 세팅을 할 수 있어야한다.
 
 ## 목차
+
 - [1. Environment](environment.md)
 - [2. TypeScript](typescript.md)
-- TypeScript
+- [3. react](react.md)
 - React
 - Testing Library
 - Parcel & ESLint
+- [1주차 주간회고](weeklyReview.md)
