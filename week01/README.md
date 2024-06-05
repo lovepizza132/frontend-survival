@@ -8,8 +8,7 @@
 
 - [1. Environment](environment.md)
 - [2. TypeScript](typescript.md)
-- [3. react](react.md)
-- React
+- [3. React](react.md)
 - Testing Library
 - Parcel & ESLint
 - [1주차 주간회고](weeklyReview.md)
